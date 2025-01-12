@@ -12,3 +12,8 @@
 
 * [SCP:SL](documentation/scp-sl.md)
 * [Discord](documentation/discord.md)
+
+## 🗞️ Последние новости <a href="#last-news" id="last-news"></a>
+
+* [Последние новости](last-news/main.md)
+* [🐍 2025](last-news/2025.md)
