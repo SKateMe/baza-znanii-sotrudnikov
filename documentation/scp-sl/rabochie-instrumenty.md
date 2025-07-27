@@ -1,6 +1,10 @@
 ---
-description: Тут список рабочих инструментов типа
+description: Список рабочих инструментов
 ---
 
 # Рабочие инструменты
+
+## Админ. панель (RA)
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
