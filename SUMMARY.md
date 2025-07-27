@@ -14,7 +14,7 @@
   * [Рабочие инструменты](documentation/scp-sl/rabochie-instrumenty.md)
   * [Команды](documentation/scp-sl/komandy/README.md)
     * [Основные команды](documentation/scp-sl/komandy/osnovnye-komandy.md)
-    * [Funtoolbox](documentation/scp-sl/komandy/funtoolbox.md)
+    * [FuntoolBox](documentation/scp-sl/komandy/funtoolbox.md)
 * [Discord](documentation/discord.md)
 
 ## 🗞️ Последние новости <a href="#last-news" id="last-news"></a>
