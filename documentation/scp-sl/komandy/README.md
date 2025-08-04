@@ -87,7 +87,7 @@ layout:
 
 ## Список команд
 
-<table data-view="cards" data-full-width="false"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a data-mention href="osnovnye-komandy.md">osnovnye-komandy.md</a></td><td><a href="osnovnye-komandy.md">osnovnye-komandy.md</a></td><td><a href="../../../.gitbook/assets/bob_thinking.png">bob_thinking.png</a></td></tr><tr><td><a data-mention href="funtoolbox.md">funtoolbox.md</a></td><td></td><td><a href="../../../.gitbook/assets/bob_smiles.png">bob_smiles.png</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><a data-mention href="osnovnye-komandy.md">osnovnye-komandy.md</a></td><td><a href="osnovnye-komandy.md">osnovnye-komandy.md</a></td><td><a href="../../../.gitbook/assets/bob_thinking.png">bob_thinking.png</a></td></tr><tr><td><a data-mention href="drugoe.md">drugoe.md</a></td><td><a href="drugoe.md">drugoe.md</a></td><td><a href="../../../.gitbook/assets/bob_thinking.png">bob_thinking.png</a></td></tr><tr><td><a data-mention href="funtoolbox.md">funtoolbox.md</a></td><td><a href="funtoolbox.md">funtoolbox.md</a></td><td><a href="../../../.gitbook/assets/bob_smiles.png">bob_smiles.png</a></td></tr></tbody></table>
 
 [^1]: Приватный сервер для сотрудников проекта, на который можно подключиться только напрямую через Ip-Адрес
 
