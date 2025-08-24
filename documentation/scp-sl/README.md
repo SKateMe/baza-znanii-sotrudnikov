@@ -23,5 +23,5 @@ layout:
 
 # SCP:SL
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a data-mention href="rabochie-instrumenty.md">rabochie-instrumenty.md</a></td><td><a href="../../.gitbook/assets/025-design tools.png">025-design tools.png</a></td><td><a href="rabochie-instrumenty.md">rabochie-instrumenty.md</a></td></tr><tr><td><a data-mention href="komandy/">komandy</a></td><td><a href="../../.gitbook/assets/033-magic wand.png">033-magic wand.png</a></td><td><a href="komandy/">komandy</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a data-mention href="rabochie-instrumenty/">rabochie-instrumenty</a></td><td><a href="../../.gitbook/assets/025-design tools.png">025-design tools.png</a></td><td><a href="rabochie-instrumenty/">rabochie-instrumenty</a></td></tr><tr><td><a data-mention href="komandy/">komandy</a></td><td><a href="../../.gitbook/assets/033-magic wand.png">033-magic wand.png</a></td><td><a href="komandy/">komandy</a></td></tr></tbody></table>
 

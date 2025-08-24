@@ -11,14 +11,11 @@
 ## 📔 Документации <a href="#documentation" id="documentation"></a>
 
 * [SCP:SL](documentation/scp-sl/README.md)
-  * [Рабочие инструменты](documentation/scp-sl/rabochie-instrumenty.md)
+  * [Рабочие инструменты](documentation/scp-sl/rabochie-instrumenty/README.md)
+    * [Админ. панель](documentation/scp-sl/rabochie-instrumenty/admin.-panel.md)
+    * [Боты-Логгеры](documentation/scp-sl/rabochie-instrumenty/boty-loggery.md)
   * [Команды](documentation/scp-sl/komandy/README.md)
     * [Основные команды](documentation/scp-sl/komandy/osnovnye-komandy.md)
     * [Другое](documentation/scp-sl/komandy/drugoe.md)
     * [FuntoolBox](documentation/scp-sl/komandy/funtoolbox.md)
 * [Discord](documentation/discord.md)
-
-## 🗞️ Последние новости <a href="#last-news" id="last-news"></a>
-
-* [Последние новости](last-news/main.md)
-* [🐍 2025](last-news/2025.md)
