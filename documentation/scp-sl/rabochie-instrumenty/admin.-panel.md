@@ -4,6 +4,10 @@ description: Также известна как RA-панель
 
 # Админ. панель
 
+Для составления этой страницы была использована часть информации из старого [гайда](https://docs.google.com/document/d/1vT3KXWvM-HH-P5KGwPwgsghVzcL7GVUaTKbiMm1gILE/edit?tab=t.0) Dogoo Slayer
+
+***
+
 ## Что это такое ?
 
 Основное внутриигровое рабочее пространство, где сотрудник будет совершать наибольшее количество действий.
@@ -23,7 +27,7 @@ description: Также известна как RA-панель
 4. **Кнопка перехода в текстовую админ. консоль**
 5. **Кнопка перехода в настройки админ. панели**
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p><strong>Внешний вид основного окна админ. панели</strong><br>1. Список игроков<br>2. Категории<br>3. Активное рабочее пространство<br>4. Кнопка перехода в текстовую админ. консоль<br>5. Кнопка перехода в настройки админ. панели</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><strong>Внешний вид основного окна админ. панели</strong><br>1. Список игроков<br>2. Категории<br>3. Активное рабочее пространство<br>4. Кнопка перехода в текстовую админ. консоль<br>5. Кнопка перехода в настройки админ. панели</p></figcaption></figure>
 
 ## Список игроков
 
@@ -33,13 +37,13 @@ description: Также известна как RA-панель
    Просмотр и выделение игроков.
 2. **Меню сортировки**\
    Позволяет выбрать один из способов сортировки списка игроков.\
-   ![](<../../../.gitbook/assets/image (2).png>)
+   ![](<../../../.gitbook/assets/image (2) (1).png>)
 3. **Кнопка инверсии**\
    Инвертирует отображение списка игроков.
 4. **Поле поиска**\
    Позволяет искать определённых игроков.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p><strong>Внешний вид списка игроков</strong><br>1. Интерактивное поле с игроками<br>2. Меню сортировки<br>3. Кнопка инверсии<br>4. Поле поиска</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><strong>Внешний вид списка игроков</strong><br>1. Интерактивное поле с игроками<br>2. Меню сортировки<br>3. Кнопка инверсии<br>4. Поле поиска</p></figcaption></figure>
 
 Для выделения одного игрока, используйте <kbd>ЛКМ</kbd>.
 
@@ -51,8 +55,16 @@ description: Также известна как RA-панель
 
 {% hint style="info" %}
 Выделенный игрок подсвечивается белым цветом.\
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 {% endhint %}
+
+Чтобы просмотреть последних вышедших игроков или скопировать данные одного из последних вышедших игроков, выделите в списке игроков ![](<../../../.gitbook/assets/image (14).png>) и через [#request-data](admin.-panel.md#request-data "mention") сделайте `REQUEST` ( :warning: внимательно ознакомьтесь с информацией в появившемся списке).
+
+Для помощи администрации в поиске потенциальных нарушителей действует система сегментации игроков по очкам подозрительности и визуальное предупреждение о новичке на проекте.&#x20;
+
+Чтобы узнать насколько игрок подозрителен, зайдите в список игроков и посмотрите на цвет скобок с PlayerId <img src="../../../.gitbook/assets/image (15).png" alt="" data-size="line"><img src="../../../.gitbook/assets/image (16).png" alt="" data-size="line">. <mark style="color:$success;">Зелёный</mark> цвет обозначает отсутствие подозрительности. Чем ближе к <mark style="color:red;">красному</mark> цвету, тем подозрительнее игрок.&#x20;
+
+У новичка на проекте перед скобками с PlayerId будет иконка <sup>⚠️</sup> <img src="../../../.gitbook/assets/image (17).png" alt="" data-size="line">, цвет которой обозначает сколько времени прошло с первого захода игрока на проект (насколько игрок новый на проекте). <mark style="color:$success;">Зелёный</mark> цвет или отсутствие иконки обозначает, что игрок впервые заходил на один из серверов проекта более 2 недель назад. Чем ближе к <mark style="color:red;">красному</mark> цвету, тем меньше времени прошло с первого захода игрока на один из серверов проекта (т.е игрок новенький).
 
 ## Категории и их активные рабочие пространства
 
@@ -70,7 +82,7 @@ description: Также известна как RA-панель
 
 `REQUEST AUTH` - отображает QR-код на весь экран (нужен для подачи репорта на читеров).
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><strong>Внешний вид "Request Data"</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><strong>Внешний вид "Request Data"</strong></p></figcaption></figure>
 
 ### Role Management
 
@@ -84,7 +96,7 @@ description: Также известна как RA-панель
 
 `Grant Loadout` - выдаёт выделенному игроку инвентарь выбранной роли.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p><strong>Внешний вид "Role Management"</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><strong>Внешний вид "Role Management"</strong></p></figcaption></figure>
 
 ### Inventory
 
@@ -92,7 +104,7 @@ description: Также известна как RA-панель
 
 `SORT BY` - меню сортировки, позволяет использовать один из вариантов сортировки списка предметов.
 
-<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left" data-full-width="false"><figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 `INVERTED` - кнопка инверсии, инвертирует отображение списка предметов.
 
@@ -108,7 +120,7 @@ description: Также известна как RA-панель
 
 `FORCE-EQUIP` - выделенный игрок возьмёт выбранный предмет, если он есть в инвентаре.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><strong>Внешний вид "Inventory"</strong><br>1. Меню сортировки<br>2. Кнопка инверсии<br>3. Поле поиска</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p><strong>Внешний вид "Inventory"</strong><br>1. Меню сортировки<br>2. Кнопка инверсии<br>3. Поле поиска</p></figcaption></figure>
 
 ### Status Effects
 
@@ -133,11 +145,11 @@ description: Также известна как RA-панель
 В списке эффектов содержатся не все эффекты.
 {% endhint %}
 
-Нажатие на <img src="../../../.gitbook/assets/image (9).png" alt="" data-size="line"> выдаст выбранный эффект выделенному игроку.
+Нажатие на <img src="../../../.gitbook/assets/image (9) (1).png" alt="" data-size="line"> выдаст выбранный эффект выделенному игроку.
 
-Нажатие на <img src="../../../.gitbook/assets/image (10).png" alt="" data-size="line"> уберёт выбранный эффект с выделенного игрока.
+Нажатие на <img src="../../../.gitbook/assets/image (10) (1).png" alt="" data-size="line"> уберёт выбранный эффект с выделенного игрока.
 
-Параметр **"Duration"** <img src="../../../.gitbook/assets/image (11).png" alt="" data-size="original"> отвечает за длительность эффекта в секундах.
+Параметр **"Duration"** <img src="../../../.gitbook/assets/image (11) (1).png" alt="" data-size="original"> отвечает за длительность эффекта в секундах.
 
 {% hint style="info" %}
 Если выбрана длительность 0, то эффект будет длиться до смены класса игрока.
@@ -149,7 +161,7 @@ description: Также известна как RA-панель
 **Пример:** 0.5
 {% endhint %}
 
-Параметр "Instensity" ![](<../../../.gitbook/assets/image (12).png>) отвечает за интенсивность эффекта.
+Параметр "Instensity" <img src="../../../.gitbook/assets/image (12) (1).png" alt="" data-size="original"> отвечает за интенсивность эффекта.
 
 {% hint style="info" %}
 Если выбрана интенсивность 0, то эффект исчезнет с выделенного игрока.
@@ -169,7 +181,7 @@ description: Также известна как RA-панель
 
 `RESET VALUES` - восстанавливает все значения параметров "Duration" и "Intensity" до значений по умолчанию (Duration 0 и  Intensity 1).
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p><strong>Внешний вид "Status Effects"</strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p><strong>Внешний вид "Status Effects"</strong></p></figcaption></figure>
 
 ### Moderation
 
@@ -185,7 +197,7 @@ description: Также известна как RA-панель
     `REQUEST` - выдаёт выделенному игроку выбранное наказание.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Predifined Reasons"</strong></p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Predifined Reasons"</strong></p></figcaption></figure>
 2. **Custom Reasons**\
    Выдача наказания с возможностью указать свою причину и выбрать один из доступных сроков наказания.\
    \
@@ -194,13 +206,13 @@ description: Также известна как RA-панель
    `REQUEST` - выдаёт выделенному игроку выбранное наказание.\
 
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Custom Reason"</strong><br>1. Сроки наказания<br>2. Поле ввода причины</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Custom Reason"</strong><br>1. Сроки наказания<br>2. Поле ввода причины</p></figcaption></figure>
 
 1.  **Mute Manager**\
     Выдача или снятие мута с игрока.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Mute Manager"</strong></p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Mute Manager"</strong></p></figcaption></figure>
 
 
 
@@ -273,15 +285,15 @@ description: Также известна как RA-панель
 
 **Встроенные варианты форматирование текста представляют собой ...**
 
-* <mark style="color:$primary;">Ц</mark><mark style="color:$info;">в</mark><mark style="color:$success;">е</mark><mark style="color:$danger;">т</mark><mark style="color:yellow;">а</mark>  ![](../../../.gitbook/assets/SCPSL_zTxHxgUgTq.png)
-* **Жирный текст** ![](<../../../.gitbook/assets/image (24).png>)
-* _Курсив_  ![](../../../.gitbook/assets/SCPSL_Zm4hXiU93t.png)
-* [Нижнее подчёркивание](#user-content-fn-1)[^1] ![](../../../.gitbook/assets/SCPSL_pXjNsOZita.png)&#x20;
-* ~~Зачёркивание~~  ![](../../../.gitbook/assets/SCPSL_0f8tZ9ygtx.png)
+* <mark style="color:$primary;">Ц</mark><mark style="color:$info;">в</mark><mark style="color:$success;">е</mark><mark style="color:$danger;">т</mark><mark style="color:yellow;">а</mark>  <img src="../../../.gitbook/assets/SCPSL_zTxHxgUgTq.png" alt="" data-size="line">
+* **Жирный текст** <img src="../../../.gitbook/assets/image (24).png" alt="" data-size="line">
+* _Курсив_  <img src="../../../.gitbook/assets/SCPSL_Zm4hXiU93t.png" alt="" data-size="line">
+* [Нижнее подчёркивание](#user-content-fn-1)[^1] <img src="../../../.gitbook/assets/SCPSL_pXjNsOZita.png" alt="" data-size="line">&#x20;
+* ~~Зачёркивание~~  <img src="../../../.gitbook/assets/SCPSL_0f8tZ9ygtx.png" alt="" data-size="line">
 
 `CLEAR INPUT` - очищает весь текст в поле ввода.
 
-`CLEAR BROADCASTS` - убирает все текстовые оповещения, в т.ч и очищает очередь показа текстовых оповещений.
+`CLEAR BROADCASTS` - убирает текущее текстовое оповещение и очищает очередь текстовых оповещений.
 
 `SEND PRIVATELY` - отправляет текстовое оповещение только выделенным игрока.
 
@@ -393,42 +405,121 @@ description: Также известна как RA-панель
 
 *   **Door Management**\
     Взаимодействие с дверьми.\
+    \
+    <mark style="color:red;">Красная</mark> окантовка у кнопки двери обозначает наличие активной блокировки взаимодействия с этой дверью.\
+    <mark style="color:red;">Красное</mark> заполнение у кнопки двери обозначает, что эта дверь сломана.\
+    \
+    `(ALL)` - выделяет все двери на карте.\
+    `(ALL LISTED)` - выделяет все двери из списка.\
+    `(ALL NOT LISTED)` - выделяет все двери не из списка.\
+    `TELEPORT` - перемещает выделенного игрока к выбранной двери.\
+    `OPEN` - открывает выделенную дверь.\
+    `CLOSE` - закрывает выделенную дверь.\
+    `LOCK` - блокирует взаимодействие с выделенной дверью.\
+    `UNLOCK` - снимает блокировку взаимодействия с выделенной дверью.\
+    `DESTROY` - ломает выделенную дверь.\
+    `REPAIR` - восстанавливает выделенную дверь, если она был поломана.\
 
 
     <figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Door Management"</strong></p></figcaption></figure>
 *   **Elevator Management**\
     Взаимодействие с лифтами.\
+    \
+    <mark style="color:red;">Красная</mark> окантовка у кнопки лифта обозначает наличие активной блокировки взаимодействия с этим лифтом.\
+    \
+    `(ALL)` - выделяет все лифты.\
+    `TELEPORT INSIDE` - перемещает выделенного игрока во внутрь выбранного лифта.\
+    `TELEPORT OUTSIDE` - перемещает выделенного игрока возле внешней кнопки выбранного лифта.\
+    `SEND` - вызывает выбранный лифт на другой этаж.\
+    `LOCK` - блокирует взаимодействие с выбранным лифтом.\
+    `UNLOCK` - убирает блокировку взаимодействия с выбранным лифтом.\
 
 
     <figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Elevator Management"</strong></p></figcaption></figure>
 *   **Map Modifiers**\
     Взаимодействие с прочими системами комплекса.\
+    \
+    **Overcharge** позволяет отключать свет в одной из зон комплекса на указанное время (указывается в поле ввода текста в секундах). Для восстановления освещения в комплексе используйте кнопку <img src="../../../.gitbook/assets/image.png" alt="" data-size="line">.\
+    \
+    **Lockdown** позволяет блокировать одну из зон комплекса на указанное время (указывается в поле ввода текста в секундах). Для снятия блокировки в комплексе используйте кнопку <img src="../../../.gitbook/assets/image.png" alt="" data-size="line">.\
+    \
+    **Cleanup** позволяет очищать карту от трупов <img src="../../../.gitbook/assets/image (1).png" alt="" data-size="line">, предметов на полу <img src="../../../.gitbook/assets/image (2).png" alt="" data-size="line">, следов от пуль <img src="../../../.gitbook/assets/image (3).png" alt="" data-size="line"> и следов крови <img src="../../../.gitbook/assets/image (4).png" alt="" data-size="line"> (можно указать количество для очистки в поле ввода текста).\
 
 
     <figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption><p><strong>Внешний вид вкладки "Map Modifiers"</strong></p></figcaption></figure>
 
-
-
-Тут нужно дописать инфу ...
-
 ### C.A.S.S.I.E
 
-Позволяет отправлять голосовые команды C.A.S.S.I.E. со своими настройками.
+Позволяет проигрывать готовые фразы и звуки через систему звукового оповещения C.A.S.S.I.E.
 
-Тут нужно дописать инфу ...
+Для перемещения по списку доступных фраз и звуков используйте кнопки ![](<../../../.gitbook/assets/image (5).png>).
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+Текущая страница и количество элементов в списке отображаются здесь ![](<../../../.gitbook/assets/image (6).png>).
+
+`PITCH` - регулирует высоту голоса/звука.
+
+`JAM` - регулирует запинания (первое значение - время до начала запинки в миллисекундах, второе значение - количество повтором запинки).
+
+`YIELD` - время паузы между фразами в секундах.
+
+Для копирования текста в буфер обмена используйте кнопку <img src="../../../.gitbook/assets/image (8).png" alt="" data-size="line">.
+
+Для самостоятельного прослушивания текущего текста используйте кнопку <img src="../../../.gitbook/assets/image (9).png" alt="" data-size="line">.
+
+`CLEAR INPUT` - очищает поле ввода текста.
+
+`SEND SILENTLY` - воспроизводит (отправляет в очередь воспроизведения) текст C.A.S.S.I.E. без звукового оповещения в начале и в конце вещания.
+
+`SEND WITH ALARM` - воспроизводит (отправляет в очередь воспроизведения) текст C.A.S.S.I.E. с звуковым оповещением в начале и в конце вещания.
+
+`CLEAR CASSIE` - останавливает воспроизведение текущего текста C.A.S.S.I.E. и очищает очередь воспроизведения.
+
+<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption><p><strong>Внешний вид "C.A.S.S.I.E"</strong><br>1. Список доступных фраз и звуков<br>2. Поле ввода текста</p></figcaption></figure>
 
 ## Текстовая админ. консоль
 
-Тут нужно дописать ...
+Позволяет использовать разные команды.
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+Для отправки команды нажмите на клавишу <kbd>ENTER</kbd> или кнопку ![](<../../../.gitbook/assets/image (10).png>).
+
+Переключатель режима отображения форматирования ![](<../../../.gitbook/assets/image (11).png>) работает так же, как и в [#broadcasting](admin.-panel.md#broadcasting "mention").
+
+Подробнее узнать про команды можно в [komandy](../komandy/ "mention").
+
+<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption><p><strong>Внешний вид текстовой админ. консоли</strong><br>1. История запросов и ответов<br>2. Поле ввода команд<br><strong>3.</strong> Переключатель режима отображения форматирования<br>4. Кнопка перехода в основное окно админ. панели</p></figcaption></figure>
 
 ## Настройки
 
-Тут нужно дописать ...
+Кастомизация админ. панели почти на любой вкус и цвет.
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+`MENU OPACITY` - настройка прозрачности админ. панели.
+
+`MENU COLOR` - настройка цвета админ. панели в формате <mark style="color:red;">R</mark><mark style="color:$success;">G</mark><mark style="color:blue;">B</mark>.
+
+`TOOLTIP SHOW DELAY` - время в секундах до отображения подсказки после наведения курсора на интерактивный элемент админ. панели.
+
+`TOOLTIP HIDE DELAY` - время в секундах до скрытия подсказки после вывода курсора с интерактивного элемента админ. панели.
+
+`BANDWITH COOLDOWN` - частота обновления различных данных в админ. панели в секундах (к примеру, список игроков в админ. панели).
+
+`TOOLTIPS` - <mark style="color:red;">скрывает</mark> или <mark style="color:$success;">показывает</mark> подсказки при наведении курсора на интерактивный элемент админ. панели.
+
+`COMMAND SUGGESTIONS` - <mark style="color:red;">отключает</mark> или <mark style="color:$success;">включает</mark> отображение подсказки команд при их написании в текстовой админ. консоли.
+
+`CONSOLE TIMESTAMPS` - <mark style="color:red;">отключает</mark> или <mark style="color:$success;">включает</mark> отображение метки времени в истории запросов и ответов в текстовой админ. консоли.
+
+`TOGGLE MOVEMENT` - <mark style="color:red;">отключает</mark> или <mark style="color:$success;">включает</mark> блокировку движений через клавиши с открытой админ. панелью.
+
+`RESET` - возвращает значения всех настроек на значения по умолчанию.
+
+`LOAD` - загружает последние настройки админ. панели.
+
+`SAVE` - сохраняет текущие настройки админ. панели.
+
+{% hint style="warning" %}
+Иногда настройки админ. панели могут сбрасываться из-за багов и всевозможных ошибок. В таких ситуациях не забывайте несколько раз подряд тыкать по всем кнопкам настроек и сохранять их в конце.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption><p><strong>Внешний вид настроек админ. панели</strong></p></figcaption></figure>
 
 [^1]: 
