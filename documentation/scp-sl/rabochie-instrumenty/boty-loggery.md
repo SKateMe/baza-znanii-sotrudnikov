@@ -26,6 +26,10 @@ description: Discord боты-логгеры
 
 <figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Пример использования команды</p></figcaption></figure>
 
+{% hint style="warning" %}
+Эта слэш-команда доступна только для руководства
+{% endhint %}
+
 {% hint style="info" %}
 Перед командами из админ. консоли не забудьте добавить символ `/`
 {% endhint %}
