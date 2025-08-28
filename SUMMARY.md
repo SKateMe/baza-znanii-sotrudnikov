@@ -7,6 +7,9 @@
 * [Регламенты](regulation/main.md)
 * [Общий](regulation/general.md)
 * [Руководство](regulation/leadership.md)
+* [Discord](regulation/discord.md)
+* [🟣 Classic](regulation/classic.md)
+* [🔴 MediumRP](regulation/mediumrp.md)
 
 ## 📔 Документации <a href="#documentation" id="documentation"></a>
 
